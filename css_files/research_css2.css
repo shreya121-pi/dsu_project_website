@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.banner{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.85;
+}
+.banner .content
+{
+	position: relative;
+	max-width: 750px;
+	text-align: center;
+}
+
+.banner .content h2
+{
+	color: #fff;
+	font-size: 60px;
+}
+.banner .content p
+{
+	color: #fff;
+	font-size: 25px;
+}
+.banner header
+{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	padding: 10px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+}
+.banner header h2
+{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+}
+.head{
+	background: #b181b1;  
+	padding: 10px;
+	color: white;
+	display:flex;
+	align-items: center;
+}
+nav{
+	flex:1;
+	text-align: right;	
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 20px;
+
+}
+nav ul li{
+	display: inline-block;
+}	
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 15px 10px;
+}
+a:hover{
+	padding: 15px 10px;
+    border-bottom: 2px solid #fff;
+}
+.m{
+	position:fixed;
+	width:100%;
+	opacity: 0.85;
+	z-index: -1;
+	height:auto;
+}
+.container {
+	position: relative;
+	top: 1365px;
+}
+ 
+  /* Style inputs */
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+	  background-color: #b3e6ff;
+  }
+  
+  input[type=email],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+	  background-color: #b3e6ff;
+  }
+  
+  input[type=submit] {
+    background-color: #252D3E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: lightsteelblue;
+  }
+
+  /* Style the container/contact section */
+  .container {
+
+
+    background: rgba(38, 81, 166, 0.4);
+    padding-right: 200px;
+	padding-left: 100px;
+	padding-top: 100px;
+	position:absolute;
+	top:1478px;
+	width:100%;
+    
+  }
+
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+  .location .phone .mail {
+    border-radius: 20%;
+  }
+  .scrolling-active{
+	padding-top: 10px;
+    background-color:#252d3e;
+}
+.scrolling-active header {
+	 padding-top: 10px;
+}
+.hover_eff a:hover{
+	padding: 10px 10px;
+	border-bottom: 2px solid #fff;
+}
+
+
+.footer_main{
+	position:absolute;
+	top:600px;
+	width:100%;
+	height:480px;
+	
+	left:0px;
+	background-color: #252d3e;
+}
+.footer1{
+
+	position:absolute;
+	right:0px;
+	left:700px;
+	top:700px;
+	
+	
+}
+
+.footer2{
+	position:absolute;
+	left:150px;
+	font-size:30px;
+	
+	top:700px;
+	
+}
+.dsulogo{
+	position:absolute;
+	top:650px;
+	left:450px;
+	
+}
+#dsuulogo{
+	border-radius:70%;
+	position:absolute;
+	left:-50px;
+	top:70px;
+}
+.copyright{
+	position:absolute;
+	top:1000px;
+	left:450px;
+	
+	font-size:20px;
+
+}
+.aboutpara p{
+    font-size: 25px;
+    color: white;
+    padding-top: 340px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    position: relative;
+   display: block;
+}
+
+
+
